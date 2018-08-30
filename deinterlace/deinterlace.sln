@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "deinterlace", "deinterlace.vcxproj", "{D1677B0A-CF49-457F-B003-BACF6A6A9B31}"
+	ProjectSection(ProjectDependencies) = postProject
+		{B0A91703-F533-4C5C-B7D2-52703719D274} = {B0A91703-F533-4C5C-B7D2-52703719D274}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libjpeg", "..\libjpeg\jpeg-6b\VS2017\libjpeg\libjpeg.vcxproj", "{B0A91703-F533-4C5C-B7D2-52703719D274}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D1677B0A-CF49-457F-B003-BACF6A6A9B31}.Debug|x64.ActiveCfg = Debug|x64
+		{D1677B0A-CF49-457F-B003-BACF6A6A9B31}.Debug|x64.Build.0 = Debug|x64
+		{D1677B0A-CF49-457F-B003-BACF6A6A9B31}.Release|x64.ActiveCfg = Release|x64
+		{D1677B0A-CF49-457F-B003-BACF6A6A9B31}.Release|x64.Build.0 = Release|x64
+		{B0A91703-F533-4C5C-B7D2-52703719D274}.Debug|x64.ActiveCfg = Debug|x64
+		{B0A91703-F533-4C5C-B7D2-52703719D274}.Debug|x64.Build.0 = Debug|x64
+		{B0A91703-F533-4C5C-B7D2-52703719D274}.Release|x64.ActiveCfg = Release|x64
+		{B0A91703-F533-4C5C-B7D2-52703719D274}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {511984AF-6997-4FE2-9561-04D07DFBE3FF}
+	EndGlobalSection
+EndGlobal
